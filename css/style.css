@@ -1437,51 +1437,48 @@ CERTIFICATE
 ========================*/
 
 .certificate-grid{
-
 display:grid;
-
 grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
-
 gap:30px;
-
 }
 
 .certificate-card{
-
-background:rgba(255,255,255,.05);
-
-border-radius:25px;
-
+background:#132238;
+border-radius:20px;
 overflow:hidden;
-
 transition:.4s;
-
-border:1px solid rgba(255,255,255,.08);
-
 }
 
 .certificate-card:hover{
-
 transform:translateY(-10px);
-
 }
 
 .certificate-card img{
-
 width:100%;
-
-height:230px;
-
+height:220px;
 object-fit:cover;
-
 }
 
-.certificate-card h3{
-
+.certificate-content{
 padding:20px;
-
 text-align:center;
+}
 
+.certificate-content h3{
+margin-bottom:10px;
+}
+
+.certificate-content p{
+color:#cbd5e1;
+margin-bottom:20px;
+}
+
+.certificate-content a{
+display:inline-block;
+padding:12px 25px;
+background:#2563eb;
+color:white;
+border-radius:30px;
 }
 
 /*========================
